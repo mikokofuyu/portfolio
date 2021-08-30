@@ -5,7 +5,7 @@ import Resume from './pages/Resume'
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/portfolio">
       <Switch>
         <Route exact path="/">
           <Home />
