@@ -4,8 +4,9 @@ import Home from './pages/Home'
 import Resume from './pages/Resume'
 
 const App = () => {
+  // basename="/portfolio"
   return (
-    <BrowserRouter basename="/portfolio">
+    <BrowserRouter>
       <Switch>
         <Route exact path="/">
           <Home />
