@@ -1,7 +1,6 @@
 import React, { ReactElement } from 'react'
 import Footer from '../components/Footer'
 import Nav from '../components/Nav'
-import { scrollToElement } from '../utils'
 import Certifications from './Resume/Sections/Certifications'
 import Education from './Resume/Sections/Education'
 import Employment from './Resume/Sections/Employment'

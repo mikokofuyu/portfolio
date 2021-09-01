@@ -2,7 +2,7 @@ import React, { ReactElement, useEffect, useState } from 'react'
 import { useHistory } from 'react-router-dom'
 import Nav from '../components/Nav'
 import { scrollToElement } from '../utils'
-import { MyFace, P2, Tatsuya } from '../utils/assets'
+import { MyFace, P2 } from '../utils/assets'
 import Footer from '../components/Footer'
 
 const Home: React.FC = (): ReactElement => {
@@ -45,10 +45,10 @@ const Home: React.FC = (): ReactElement => {
             <img src={P2} alt="Tatsuya from Persona 2" width={256} height={256} className="rounded-full my-8" />
             <p className="text-khaki-web text-xl text-center">
               This project was inspired by my love for Persona 2: Innocent Sin, a game for the PSP. Like many games you
-              have the ability to customise your character's name. I wanted to test my abilities and see how closely I
-              could replicate the character name input interface using React and Tailwind. The project was fun to
-              complete and gave me a greater understanding of how to improve user experience in my websites with the use
-              of keyboard navigation.
+              have the ability to customise your character&apos;s name. I wanted to test my abilities and see how
+              closely I could replicate the character name input interface using React and Tailwind. The project was fun
+              to complete and gave me a greater understanding of how to improve user experience in my websites with the
+              use of keyboard navigation.
             </p>
           </div>
         </section>
